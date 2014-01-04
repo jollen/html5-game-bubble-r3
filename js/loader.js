@@ -7,6 +7,7 @@ window.addEventListener("load", function() {
                 "js/jquery.min.js"
             ],
             complete : function() {
+                gameModule.start();
             }
         }
     ]);
