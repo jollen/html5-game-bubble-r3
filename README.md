@@ -4,3 +4,4 @@
 * DOM Reference, http://www.javascriptkit.com/domref
 # Modernizr, http://modernizr.com/
 # Yepnope loader, http://yepnopejs.com/
+# jQuery, http://jquery.com/

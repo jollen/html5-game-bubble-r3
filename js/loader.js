@@ -4,9 +4,9 @@ window.addEventListener("load", function() {
         {
             load : [
                 "js/game.js",
+                "js/jquery.min.js"
             ],
             complete : function() {
-                alert("Ready");
             }
         }
     ]);
