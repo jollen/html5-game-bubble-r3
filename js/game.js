@@ -25,6 +25,24 @@ var gameModule = (function() {
 	function touchEvent(evt) {
 		console.log('clicked: ' + evt.clientX + " , " + evt.clientY);
 
+        var x1, 
+            x2,
+            y1,
+            y2;
+
+        // 四個角
+		x1 = ballX - ballR;
+		x2 = ballX + ballR;		
+		y1 = ballY - ballR;
+		y2 = ballY + ballR;	
+
+		// 是否擊中
+		if ((evt.clientX > x1) && (evt.clientX < x2)) {
+			if ((evt.clientY > y1) && (evt.clientY < y2)) {
+
+				console.log("Hit.");
+			}
+		}
 	}
 
 	return {
