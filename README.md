@@ -5,3 +5,4 @@
 # Modernizr, http://modernizr.com/
 # Yepnope loader, http://yepnopejs.com/
 # jQuery, http://jquery.com/
+# Sizzle, http://sizzlejs.com/

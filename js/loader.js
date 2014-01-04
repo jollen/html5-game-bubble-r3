@@ -4,7 +4,8 @@ window.addEventListener("load", function() {
         {
             load : [
                 "js/game.js",
-                "js/jquery.min.js"
+                "js/jquery.min.js",
+                "js/sizzle.js"
             ],
             complete : function() {
                 gameModule.start();
